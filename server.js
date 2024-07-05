@@ -6,6 +6,7 @@ const bodyParser=require('body-parser')
 app.use(bodyParser.json())
 const person=require('./models/person')
 const Menu=require('./models/menuItem')
+require('dotenv').config();
 
 app.get('/', function(req, res) {
     res.send('Welcome to my hotel... How can I help you? We have a list of menus');
@@ -97,7 +98,9 @@ const menuItemRoutes=require('./routes/menuItemRoutes')
 app.use('/person',personRoutes)
 app.use('/menu',menuItemRoutes)
 
-const port = 3000;  // Change port number
-app.listen(port, () => {
-    console.log(`Listening on port ${port}`);
+
+const PORT = process.env.PORT || 3000; 
+/*const port = 3000;  */ // Change port number
+app.listen(PORT, () => {
+    console.log(`Listening on port ${PORT}`);
 });
