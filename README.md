@@ -76,3 +76,29 @@ Example:
   "address": "123 Main Street",
   "salary": 30000
 }
+
+### Menu Item
+The MenuItem data model represents information about menu items available in the hotel.
+
+Fields:
+
+- `name`: String (Item's name)
+- `price`: Number (Item's price)
+- `taste`: Enum (Item's taste, such as sweet, spicy, sour)
+- `is_drink`: Boolean (Indicates if the item is a drink, default is false)
+- `ingredients`: Array of Strings (List of ingredients, default is an empty array)
+- `num_sales`: Number (Number of sales for the item, default is 0)
+
+Example:
+
+```json
+{
+  "name": "Spicy Chicken Curry",
+  "price": 12.99,
+  "taste": "spicy",
+  "is_drink": false,
+  "ingredients": ["chicken", "spices", "vegetables"],
+  "num_sales": 50
+}
+npm install
+
