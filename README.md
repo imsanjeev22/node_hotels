@@ -2,42 +2,6 @@
 
 The Node Hotel application is a Node.js-based system developed using the Express.js framework, with MongoDB as the chosen database. This application manages information related to persons (staff) and menu items. It exposes specific endpoints to handle CRUD (Create, Read, Update, Delete) operations for both persons and menu items.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
-  - [Persons](#persons)
-  - [Menu Items](#menu-items)
-- [Data Models](#data-models)
-  - [Person](#person)
-  - [Menu Item](#menu-item)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/node-hotel-application.git
-    cd node-hotel-application
-    ```
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-3. Set up your MongoDB connection string in a `.env` file:
-    ```plaintext
-    MONGODB_URI=your_mongodb_connection_string
-    ```
-
-4. Start the application:
-    ```bash
-    npm start
-    ```
-
-## Usage
-The Node Hotel application provides RESTful endpoints to manage persons and menu items. Below are the details of the available endpoints.
-
 ## Endpoints
 
 ### Persons
@@ -87,9 +51,11 @@ The Node Hotel application provides RESTful endpoints to manage persons and menu
 ## Data Models
 
 ### Person
+
 The Person data model represents information about staff members in the hotel.
 
 Fields:
+
 - `name`: String (Person's name)
 - `age`: Number (Person's age)
 - `work`: Enum (Role in the hotel, such as chef, waiter, manager)
@@ -99,6 +65,7 @@ Fields:
 - `salary`: Number (Person's salary)
 
 Example:
+
 ```json
 {
   "name": "John Doe",
