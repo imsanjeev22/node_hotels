@@ -88,11 +88,8 @@ Example:
   "num_sales": 50
 }
 
-### Usage
+#### Usage
 1. Install Dependencies:
     ```bash
     npm install
     ```
-
-
-npm install
