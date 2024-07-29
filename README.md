@@ -87,3 +87,12 @@ Example:
   "ingredients": ["chicken", "spices", "vegetables"],
   "num_sales": 50
 }
+
+### Usage
+1. Install Dependencies:
+    ```bash
+    npm install
+    ```
+
+
+npm install
