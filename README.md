@@ -85,3 +85,5 @@ The Person data model represents information about staff members in the hotel.
   "address": "123 Main Street",
   "salary": 30000
 }
+
+## Menu Item
