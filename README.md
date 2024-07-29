@@ -64,19 +64,6 @@ Fields:
 - `address`: String (Person's address)
 - `salary`: Number (Person's salary)
 
-Example:
-
-```json
-{
-  "name": "John Doe",
-  "age": 30,
-  "work": "waiter",
-  "mobile": "123-456-7890",
-  "email": "john@example.com",
-  "address": "123 Main Street",
-  "salary": 30000
-}
-
 ### Menu Item
 The MenuItem data model represents information about menu items available in the hotel.
 
@@ -100,5 +87,3 @@ Example:
   "ingredients": ["chicken", "spices", "vegetables"],
   "num_sales": 50
 }
-npm install
-
